@@ -1,0 +1,31 @@
+--- 
+title: "Git for Reproducible Research"
+author: ""
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Contains code and prose explaining how to use Git for academic research."
+---
+
+# Preface {-}
+
+Over the years we have seen how version control can increase the quality of collaborative research.
+Before GitHub and collaborative tools, research projects beyond a certain size tended to descend into a mess.
+
+<!-- Example of mess -->
+
+<!-- How GitHub's approach overcomes this, e.g. with reference to a project we've worked on -->
+
+This book project aims to distill the lessons we've learned along the way into a cohesive knowledge chunk, accessible as possible to anyone interested in improving their research workflows.
+Thanks to the **bookdown** package  [@R-bookdown], it is now relatively easy to create entire books that are reproducible and open source, removing an important barrier to learning and innovation:
+information.
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

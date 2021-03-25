@@ -1,0 +1,9 @@
+# Set-up your first project
+
+## Set-up a GitHub account
+
+## Create a GitHub project
+
+## Using .gitignore 
+
+## Sharing your research
